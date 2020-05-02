@@ -96,19 +96,19 @@ body {
 /*design about me block */
 
 .title_about_me {
-  padding-top: 120.25px;
-  padding-bottom: 17.7px;
+  padding-top: 118px;
+  padding-bottom: 19px;
 }
 
 .text_about_me_2 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 35px;
 }
 
 /*design about me block */
 .title_skills {
-  padding-top: 91px;
-  padding-bottom: 69.1px;
+  padding-top: 90px;
+  padding-bottom: 70px;
 }
 
 .text_skills {
@@ -122,21 +122,21 @@ body {
 
 /*design portfolio block */
 .title_portfolio {
-  padding-top: 112.93px;
+  padding-top: 115px;
 }
 
 .image_portfolio_1 {
   padding-top: 47px;
-  padding-bottom: 44.88px;}
+  padding-bottom: 43px;}
 
 .image_portfolio_2 {
   padding-top: 99.1px;
-  padding-bottom: 44.89px;
+  padding-bottom: 43px;
 }
 
 .image_portfolio_3 {
   padding-top: 99.08px;
-  padding-bottom: 45.9px;
+  padding-bottom: 43px;
 }
 
 
@@ -144,15 +144,15 @@ body {
 .send_message {
 padding-top: 12px;
 padding-bottom: 12px;
-margin-left: 43.737%;
-margin-right: 43.737%;
+margin-left: 43%;
+margin-right: 43%;
 border-radius: 60px 60px 60px 60px;
 background-color: #070707;
   color: white;
 }
 
 .contact {
-  padding-top: 114px;
+  padding-top: 110px;
 }
 
 .text_contact {
@@ -165,6 +165,5 @@ background-color: #070707;
 }
 
 .link_contact {
-  padding-top: 46px;
-
+  padding-top: 42px;
 }
