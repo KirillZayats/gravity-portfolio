@@ -5,14 +5,9 @@
 
 }
 
-html {
-  size: 10px;
-  font-family: Gilroy-Bold;
-}
 
 body {
-  background-size: cover;
-  background-repeat: no-repeat;
+  font-family: Gilroy-Bold;
   display: grid;
   grid-template-rows: 16.137844% 10.6324858% 12.81781887% 47.341878546% 13.06997%;
 }
@@ -20,25 +15,48 @@ body {
   height: 768px;
   background-color: white;
 }
+.text_link {
+  font-family: Gilroy-Bold;
+
+  color: #828282;
+  font-size: 14px;
+  line-height: 17px;
+}
+.text {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.title {
+  font-size: 34px;
+  line-height: 42px;
+}
 
 .about_me {
   height: 506px;
+  text-align: center;
 
-  background-color: gray;
+  background-color: #F6F6F6;
 }
 
 .skills {
+  text-align: center;
+
   height: 610px;
   background-color: white;
 
 }
 
 .portfolio {
+  text-align: center;
+
   height: 2253px;
-  background-color: gray;
+  background-color: #F6F6F6;
 }
 
 .contacts {
+  text-align: center;
+
   height: 622px;
   background-color: white;
 
@@ -46,6 +64,11 @@ body {
 
 
 /*design home block */
+
+.photo_me {
+  text-align: center;
+}
+
 .home_body {
   margin: 0% 17.3487889% 0% 17.3487889%;
   background-color: violet;
@@ -60,10 +83,7 @@ body {
 
 .sections_row {
   color: #070707;
-  font-size: 18px;
-  line-height: 22px;
   padding-top: 30px;
-
 }
 
 .text_contacts {
@@ -71,3 +91,80 @@ body {
 }
 
 /*design home block */
+
+
+/*design about me block */
+
+.title_about_me {
+  padding-top: 120.25px;
+  padding-bottom: 17.7px;
+}
+
+.text_about_me_2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*design about me block */
+.title_skills {
+  padding-top: 91px;
+  padding-bottom: 69.1px;
+}
+
+.text_skills {
+  padding-bottom: 87.27px;
+}
+
+.skills_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/*design portfolio block */
+.title_portfolio {
+  padding-top: 112.93px;
+}
+
+.image_portfolio_1 {
+  padding-top: 47px;
+  padding-bottom: 44.88px;}
+
+.image_portfolio_2 {
+  padding-top: 99.1px;
+  padding-bottom: 44.89px;
+}
+
+.image_portfolio_3 {
+  padding-top: 99.08px;
+  padding-bottom: 45.9px;
+}
+
+
+/*design contacts block */
+.send_message {
+padding-top: 12px;
+padding-bottom: 12px;
+margin-left: 43.737%;
+margin-right: 43.737%;
+border-radius: 60px 60px 60px 60px;
+background-color: #070707;
+  color: white;
+}
+
+.contact {
+  padding-top: 114px;
+}
+
+.text_contact {
+  padding-top: 20px;
+  padding-bottom: 29.6px;
+}
+
+.image_contact {
+  padding-top: 86.6px;
+}
+
+.link_contact {
+  padding-top: 46px;
+
+}
