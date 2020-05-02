@@ -53,14 +53,14 @@ body {
   margin-top: 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
+  grid-column-gap: 10.7716263%;
 }
 
 .sections_row {
   color: #070707;
   font-size: 18px;
   line-height: 22px;
-  padding-top: 33px;
+  padding-top: 30px;
 
 }
 
