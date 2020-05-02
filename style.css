@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+
+}
+
+html {
+  size: 10px;
+  font-family: Gilroy-Bold;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: 16.137844% 10.6324858% 12.81781887% 47.341878546% 13.06997%;
+}
+.home {
+  height: 768px;
+  background-color: white;
+}
+
+.about_me {
+  height: 506px;
+
+  background-color: gray;
+}
+
+.skills {
+  height: 610px;
+  background-color: white;
+
+}
+
+.portfolio {
+  height: 2253px;
+  background-color: gray;
+}
+
+.contacts {
+  height: 622px;
+  background-color: white;
+
+}
+
+.home_body {
+  margin: 0% 17.3487889% 0% 17.3487889%;
+  background-color: violet;
+}
+
+.header {
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.sections_row {
+  color: #070707;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 33px;
+
+}
+
+
+
+.text_contacts {
+  text-align: end;
+}
