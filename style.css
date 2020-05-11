@@ -23,21 +23,22 @@ body {
 }
 
 .text_name_user {
- /* background-color: blue;*/
-
+  background-color: blue;
+  padding-top: 10px;
 }
 
 .text_info_about_user {
+  margin-left: 80px;
   background-color: #828282;
-  position:absolute; /* добавили */
-  bottom:0; 
+  margin-top: 70px;
+
+
 }
 
 .info_about_user {
   font-size: 18px;
   line-height: 22px;
   color: #070707;
-  position:relative;
   background-color: brown;
 }
 
@@ -47,34 +48,30 @@ body {
   color: #828282;
   position:relative;
 
-  
   background-color: chartreuse;
 }
 
 .text_language {
   background-color: chocolate;
-
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-left: auto;
-  margin-right: 0em;
+  padding-top: 15px;
 }
 
 .line {
-  position:relative;
-
-  background-color: crimson;
-  height: 1px;
+  padding-top: 10px;
 }
 
 .object_line {
-
+  border: 1px solid #828282;
+transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .description {
+  padding-top: 28px;
   height: 138.8;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -135,14 +132,17 @@ body {
 }
 
 .home_body {
-  margin: 0% 17.349135% 0% 17.349135%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 943px;
+  /*margin: 0% 17.349135% 0% 17.349135%;*/
   background-color: violet;
   height: 276.94px;
   
 }
 
 .header {
-  margin-top: 0px;
+  /*margin-top: 0px;*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 10.7716263%;
@@ -188,9 +188,7 @@ body {
   padding-bottom: 65px;
 }
 
-.text_skills {
-  padding-bottom: 87.27px;
-}
+
 
 .skills_images {
   margin: 0% 17.349135% 0% 17.349135%;
@@ -251,6 +249,11 @@ background-color: #070707;
 @media only screen and (max-width: 600px) {
   body {
     background-color: darkorchid;
+  }
+
+  .description {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
   }
 
   .header {
