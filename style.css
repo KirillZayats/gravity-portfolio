@@ -10,12 +10,51 @@
  }
 
  @font-face {
-  font-family: Gilroy-Medium; /* Имя шрифта */
-  src: url(shrifts/Gilroy-Medium.ttf); /* Путь к файлу со шрифтом */
+  font-family: Gilroy-Medium;
+  src: url(shrifts/Gilroy-Medium.ttf);
  }
 
 body {
   font-family: Gilroy-Bold;
+}
+
+.text {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/*design home block */
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 67.9px;
+}
+
+.title {
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.text_contacts {
+  text-align: end;
+}
+
+.contacts {
+  text-align: center;
+  background-color: white;
+}
+
+.line {
+  margin-top: 20px;
+}
+
+.object_line {
+  margin-top: 10px;
+  border: 1px solid #828282;
+transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .name_user {
@@ -32,7 +71,6 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #070707;
-  /* background-color: brown; */
 }
 
 .language {
@@ -40,67 +78,15 @@ body {
   line-height: 20px;
   color: #828282;
   position:relative;
-
-  /* background-color: chartreuse; */
 }
 
 .text_language {
-  /* background-color: chocolate; */
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
   position: absolute;
   bottom: 0;
   right: 0;
   padding-top: 15px;
-}
-
-.line {
-  margin-top: 20px;
-}
-
-.object_line {
-  margin-top: 10px;
-  border: 1px solid #828282;
-transform: matrix(1, 0, 0, 1, 0, 0);
-}
-
-.text_link {
-  font-family: Gilroy-Medium;
-
-  color: #828282;
-  font-size: 14px;
-  line-height: 17px;
-}
-.text {
-  font-family: Gilroy-Medium;
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.title {
-  font-size: 34px;
-  line-height: 42px;
-}
-
-.contacts {
-  text-align: center;
-  background-color: white;
-}
-
-
-/*design home block */
-
-.photo_me {
-  text-align: center;
-}
-
-.header {
-  /*margin-top: 0px;*/
-  display: flex;
-  justify-content: space-between;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
-  /* background-color: chocolate; */
-  height: 67.9px;
 }
 
 .photo_me {
@@ -116,13 +102,6 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   padding-top: 30px;
 }
 
-.text_contacts {
-  text-align: end;
-}
-
-/*design home block */
-
-
 /*design about me block */
 
 
@@ -131,31 +110,24 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   padding-bottom: 50px;
 }
 
-/*design about me block */
-
-/*design portfolio block */
-.title_portfolio {
-  padding-top: 110px;
+.about_me {
+  text-align: center;
+  background-color: #F6F6F6;
 }
 
+/*design skills block */
 
+.skills {
+  text-align: center;
+  background-color: white;
+}
 
-/*design contacts block */
+/*design portfolio block */
 
-
-@media only screen and (min-width: 600px) {
-
-  .text_name_user {
-    /* background-color: blue;  */
-    padding-top: 10px;
-  }
-  
-
-  .portfolio {
-    text-align: center;
-    height: 2253px;
-    background-color: #F6F6F6;
-  }
+.portfolio {
+  text-align: center;
+  background-color: #F6F6F6;
+}
 
   .image_portfolio_1 {
     padding-top: 47px;
@@ -171,15 +143,108 @@ transform: matrix(1, 0, 0, 1, 0, 0);
     padding-bottom: 41px;
   }
 
+.title_portfolio {
+  padding-top: 110px;
+}
+
 /*design contacts block */
+.text_link {
+  font-family: Gilroy-Medium;
+  color: #828282;
+  font-size: 14px;
+  line-height: 17px;
+}
+
 .send_message {
   padding-top: 12px;
   padding-bottom: 12px;
-  margin-left: 43.3%;
-  margin-right: 43.3%;
   border-radius: 60px 60px 60px 60px;
   background-color: #070707;
-    color: white;
+  color: white;
+}
+
+
+/* For PC: */
+@media only screen and (min-width: 600px) {
+  
+
+  /*design home block */
+
+  .home_body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 943px;
+    height: 276.94px;
+  }
+
+  .title_about_me {
+    padding-top: 117px;
+    padding-bottom: 19px;
+  }
+
+  .text_name_user {
+    padding-top: 10px;
+  }
+
+  .description {
+    padding-top: 18px;
+    height: 138.8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .about_me {
+    height: 506px;
+  }
+
+  .side_menu {
+    display: none;
+  }
+
+  .text_info_about_user {
+    margin-left: 110px;
+    margin-top: 70px;
+  }
+
+  .home {
+    height: 768px;
+    background-color: white;
+  }
+
+  /*design skills block */
+  
+  .skills {
+    height: 610px;
+  }
+
+  .title_skills {
+    padding-top: 89px;
+    padding-bottom: 52px;
+  }
+
+  .skills_images {
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 943px;
+    display: flex;
+    justify-content: space-between
+  }
+
+  /*design portfolio block */
+  
+  .title_portfolio {
+    padding-top: 110px;
+  }
+  .portfolio {
+    height: 2253px;
+  }
+
+  /*design contacts block */
+
+  .send_message {
+    margin-left: 43.3%;
+    margin-right: 43.3%;
   }
 
   .contacts {
@@ -203,203 +268,20 @@ transform: matrix(1, 0, 0, 1, 0, 0);
     padding-top: 108px;
   }
 
-  .title_portfolio {
-    padding-top: 110px;
-  }
+}
 
-  .title_skills {
-    padding-top: 89px;
-    padding-bottom: 52px;
-  }
+/* For Mobile: */
+@media only screen and (max-width: 600px) {
 
-  .skills_images {
-    padding-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 943px;
-    display: flex;
-    justify-content: space-between
-  }
-
+  /*design home block */
   .home_body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 943px;
-    /*margin: 0% 17.349135% 0% 17.349135%;*/
-    height: 276.94px;
-  }
-
-  .title_about_me {
-    padding-top: 117px;
-    padding-bottom: 19px;
-  }
-
-  .text_info_about_user {
-    margin-left: 110px;
-    /* background-color: #828282; */
-    margin-top: 70px;
-  }
-
-  .description {
-    padding-top: 18px;
-    height: 138.8;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .about_me {
-    height: 506px;
-    text-align: center;
-  
-    background-color: #F6F6F6;
-  }
-
-  .side_menu {
-    display: none;
-  }
-
-  .text_info_about_user {
-    margin-left: 110px;
-    margin-top: 70px;
+    width: 100%;
+    height: 275px;
   }
 
   .home {
-    height: 768px;
+    height: 836px;
     background-color: white;
-  }
-
-  .skills {
-    text-align: center;
-    height: 610px;
-    background-color: white;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: darkorchid;
-  }
-
-  .text_name_user {
-    /* background-color: blue;  */
-    padding-top: 20px;
-  }
-  
-
-  .portfolio {
-    text-align: center;
-    height: 1118px;
-    background-color: #F6F6F6;
-  }
-
-  .image_3{
-    width: 316px;
-    height: 171px;
-  }
-
-  .image_1{
-    width: 316px;
-    height: 171px;
-  }
-
-  .image_2{
-    width: 316px;
-    height: 171px;
-  }
-
-  .image_portfolio_1 {
-    padding-top: 47px;
-    padding-bottom: 41px;}
-  
-  .image_portfolio_2 {
-    padding-top: 99.1px;
-    padding-bottom: 41px;
-  }
-  
-  .image_portfolio_3 {
-    padding-top: 99.08px;
-    padding-bottom: 41px;
-  }
-
-/*design contacts block */
-  .send_message {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    margin-left: 29px;
-    margin-right: 30px;
-    border-radius: 60px 60px 60px 60px;
-    background-color: #070707;
-    color: white;
-  }
-
-  .contacts {  
-    height: 569px;
-  }
-
-  .link_contact {
-    padding-top: 49px;
-  }  
-  .img_contact{
-    width: 316px;
-  }
-
-  .image_contact {
-    padding: 0 31px, 0, 29px;
-    padding-top: 48px;
-  }
-
-  .text_contact {
-    padding-top: 27px;
-    padding-bottom: 39px;
-  }
-
-  .contact {
-    padding-top: 81px;
-  }
-
-  .title_portfolio {
-    padding-top: 81px;
-  }
-
-  .skills_images {
-    padding-top: 71px;
-    display: flex;
-    flex-direction: column;  
-  }
-
-  .skills_image_1 {
-    margin-bottom: 80px;
-  }
-
-  .skills_image_2 {
-    margin-bottom: 80px;
-  }
-
-  
-  
-  .skills_image_3 {
-    margin-bottom: 80px;
-  }
-
-  .block_about_me {
-    margin: 0 30px 0 29px;
-  }
-
-  .title_skills {
-    padding-top: 83px;
-    padding-bottom: 50px;
-  }
-
-  .title_about_me {
-    padding-top: 81px;
-    padding-bottom: 19px;
-  }
-
-  .home_body {
-    width: 100%;
-    /*margin: 0% 17.349135% 0% 17.349135%;*/
-    background-color: violet; 
-    height: 275px;
   }
 
   .name_user {
@@ -408,18 +290,42 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   }
 
   .description {
-    background-color: darkslateblue;
     margin: 0px 29px 0px 30px;
     position: relative;
-    padding-top: 18px;
     height: 275px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 
-  .text_info_about_user {
-    background-color: darkred;
+  .text_name_user {
+    padding-top: 20px;
+  }
+
+  .home_body {
+    width: 100%;
+    height: 276.94px;
+    
+  }
+
+  .description {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .photo_me {
+    display: none;
+  }
+
+  .language {
+    display: none;
+  }
+  .line {
+    display: none;
   }
 
   .info_about_user {
@@ -478,49 +384,102 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   margin-right: 29.5px;
 }
 
-  .skills {
-    text-align: center;
-    height: 1421px;
-    background-color: white;
+  /*design about me block */
+  .title_about_me {
+    padding-top: 81px;
+    padding-bottom: 19px;
   }
 
-  .home {
-    height: 836px;
-    background-color: white;
+  .block_about_me {
+    margin: 0 30px 0 29px;
   }
-
+  
   .about_me {
     height: 491px;
-    text-align: center;
-    background-color: #F6F6F6;
+  }
+  
+  /*design skills block */
+ 
+  .skills {
+    height: 1421px;
   }
 
-  .home_body {
-    width: 100%;
-    /*margin: 0% 17.349135% 0% 17.349135%;*/
-    background-color: violet; 
-    height: 276.94px;
-    
+  .title_skills {
+    padding-top: 83px;
+    padding-bottom: 50px;
   }
 
-  .description {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+  .skills_images {
+    padding-top: 71px;
+    display: flex;
+    flex-direction: column;  
   }
 
-  .header {
-    display: none;
+  .skills_image_1 {
+    margin-bottom: 80px;
   }
 
-  .photo_me {
-    display: none;
+  .skills_image_2 {
+    margin-bottom: 80px;
   }
 
-  .language {
-    display: none;
+  .skills_image_3 {
+    margin-bottom: 80px;
   }
-  .line {
-    display: none;
+  /*design portfolio block */
+
+  .title_portfolio {
+    padding-top: 81px;
+  }
+
+  .portfolio {
+    height: 1118px;
+  }
+
+  .image_3{
+    width: 316px;
+    height: 171px;
+  }
+
+  .image_1{
+    width: 316px;
+    height: 171px;
+  }
+
+  .image_2{
+    width: 316px;
+    height: 171px;
+  }
+  /*design contacts block */
+
+  .send_message {
+    margin-left: 29px;
+    margin-right: 30px;
+  }
+
+  .contacts {  
+    height: 569px;
+  }
+
+  .link_contact {
+    padding-top: 49px;
+  }  
+  .img_contact{
+    width: 316px;
+  }
+
+  .image_contact {
+    padding: 0 31px, 0, 29px;
+    padding-top: 48px;
+  }
+
+  .text_contact {
+    padding-top: 27px;
+    padding-bottom: 39px;
+  }
+
+  .contact {
+    padding-top: 81px;
   }
 
 }
