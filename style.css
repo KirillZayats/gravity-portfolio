@@ -31,11 +31,12 @@ body {
 }
 
 .text_name_user {
-  /* background-color: blue; */
+  /* background-color: blue;  */
   padding-top: 10px;
 }
 
 .text_info_about_user {
+  font-family: Gilroy-Medium;
   margin-left: 110px;
   /* background-color: #828282; */
   margin-top: 70px;
@@ -70,16 +71,17 @@ body {
 }
 
 .line {
-  padding-top: 10px;
+  margin-top: 20px;
 }
 
 .object_line {
+  margin-top: 10px;
   border: 1px solid #828282;
 transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .description {
-  padding-top: 28px;
+  padding-top: 18px;
   height: 138.8;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -194,13 +196,13 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 
 .text_about_me_2 {
   padding-top: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 /*design about me block */
 .title_skills {
   padding-top: 89px;
-  padding-bottom: 65px;
+  padding-bottom: 52px;
 }
 
 
