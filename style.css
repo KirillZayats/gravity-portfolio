@@ -103,7 +103,11 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 /*design about me block */
-
+.block_about_me {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .text_about_me_2 {
   padding-top: 40px;
@@ -123,6 +127,10 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 /*design portfolio block */
+
+.text_line {
+  text-decoration-line: underline;
+}
 
 .portfolio {
   text-align: center;
@@ -151,8 +159,6 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 .text_link {
   font-family: Gilroy-Medium;
   color: #828282;
-  font-size: 14px;
-  line-height: 17px;
 }
 
 .send_message {
@@ -182,6 +188,8 @@ transform: matrix(1, 0, 0, 1, 0, 0);
     padding-bottom: 19px;
   }
 
+  
+
   .text_name_user {
     padding-top: 10px;
   }
@@ -209,6 +217,10 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   .home {
     height: 768px;
     background-color: white;
+  }
+
+  .block_about_me {
+    width: 485px;
   }
 
   /*design skills block */
@@ -268,6 +280,11 @@ transform: matrix(1, 0, 0, 1, 0, 0);
     padding-top: 108px;
   }
 
+  .text_link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
 }
 
 /* For Mobile: */
@@ -290,6 +307,7 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   }
 
   .description {
+    padding-top: 30px;
     margin: 0px 29px 0px 30px;
     position: relative;
     height: 275px;
@@ -306,11 +324,6 @@ transform: matrix(1, 0, 0, 1, 0, 0);
     width: 100%;
     height: 276.94px;
     
-  }
-
-  .description {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
   }
 
   .header {
@@ -391,7 +404,11 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   }
 
   .block_about_me {
-    margin: 0 30px 0 29px;
+    width: 316px;
+  }
+
+  .display_inline {
+    display: inline;
   }
   
   .about_me {
@@ -480,6 +497,11 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 
   .contact {
     padding-top: 81px;
+  }
+
+  .text_link {
+    font-size: 18px;
+    line-height: 22px;
   }
 
 }
