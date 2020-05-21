@@ -191,6 +191,8 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   
 
   .text_name_user {
+    font-size: 47.3392px;
+    line-height: 59px;
     padding-top: 10px;
   }
 
