@@ -90,7 +90,7 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   position: absolute;
   bottom: 0;
   right: 0;
-  padding-top: 15px;
+  padding-top: 9px;
 }
 
 .photo_me {
@@ -141,22 +141,8 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   background-color: #F6F6F6;
 }
 
-  .image_portfolio_1 {
-    padding-top: 47px;
-    padding-bottom: 41px;}
-  
-  .image_portfolio_2 {
-    padding-top: 99.1px;
-    padding-bottom: 41px;
-  }
-  
-  .image_portfolio_3 {
-    padding-top: 99.08px;
-    padding-bottom: 41px;
-  }
-
 .title_portfolio {
-  padding-top: 110px;
+  padding-top: 112px;
 }
 
 /*design contacts block */
@@ -176,14 +162,19 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 
 /* For PC: */
 @media only screen and (min-width: 600px) {
-  
 
+  body {
+    height: 4759px;
+  }
+.image_src {
+  width: 65%;
+}
   /*design home block */
 
   .home_body {
     margin-left: auto;
     margin-right: auto;
-    width: 943px;
+    width: 65%;
     height: 276.94px;
   }
 
@@ -215,12 +206,13 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   }
 
   .text_info_about_user {
-    margin-left: 110px;
-    margin-top: 70px;
+    padding-left: 35%;
+    margin-top: 76px;
+    width: 100%;
   }
 
   .home {
-    height: 768px;
+    height: 16.137%;
     background-color: white;
   }
 
@@ -243,7 +235,7 @@ transform: matrix(1, 0, 0, 1, 0, 0);
     padding-top: 80px;
     margin-left: auto;
     margin-right: auto;
-    width: 943px;
+    width: 65%;
     display: flex;
     justify-content: space-between
   }
@@ -251,10 +243,28 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   /*design portfolio block */
   
   .title_portfolio {
-    padding-top: 110px;
+    padding-top: 112px;
   }
   .portfolio {
     height: 2253px;
+  }
+
+  .image_1 .image_2 .image_3 {
+    width: 100%;
+  }
+
+  .image_portfolio_1 {
+    padding-top: 47px;
+    padding-bottom: 41px;}
+  
+  .image_portfolio_2 {
+    padding-top: 99.1px;
+    padding-bottom: 41px;
+  }
+  
+  .image_portfolio_3 {
+    padding-top: 99.08px;
+    padding-bottom: 41px;
   }
 
   /*design contacts block */
@@ -295,14 +305,18 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 /* For Mobile: */
 @media only screen and (max-width: 600px) {
 
+  body {
+    height: 4435px;
+  }
+
   /*design home block */
   .home_body {
     width: 100%;
-    height: 275px;
+    height: 32.8947%;
   }
 
   .home {
-    height: 836px;
+    height: 18.85%;
     background-color: white;
   }
 
@@ -315,7 +329,7 @@ transform: matrix(1, 0, 0, 1, 0, 0);
     padding-top: 30px;
     margin: 0px 29px 0px 30px;
     position: relative;
-    height: 275px;
+    height: 32.8947%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -323,12 +337,6 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 
   .text_name_user {
     padding-top: 20px;
-  }
-
-  .home_body {
-    width: 100%;
-    height: 276.94px;
-    
   }
 
   .header {
@@ -364,7 +372,7 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #333;
+  background-color: #000000;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -391,24 +399,31 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 }
   
 .photo_me_mobile_src {
-  height: 478px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  max-height: 550px;
+
 }
 
 .photo_me_mobile {
-  width: 316.5px;
+  width: 84.4%;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  max-width: 400px;
+  max-height: 550px;
 }
 
   /*design about me block */
   .title_about_me {
-    padding-top: 81px;
+    padding-top: 16.5%;
     padding-bottom: 19px;
   }
 
   .block_about_me {
-    width: 316px;
+    width: 84%;
   }
 
   .display_inline {
@@ -416,13 +431,13 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   }
   
   .about_me {
-    height: 491px;
+    height: 11.071%;
   }
   
   /*design skills block */
  
   .skills {
-    height: 1421px;
+    height: 32.04%;
   }
 
   .title_skills {
@@ -454,22 +469,42 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   }
 
   .portfolio {
-    height: 1118px;
+    height: 25.2%;
+  }
+
+  .image_portfolio_1 {
+    padding-top: 64px;
+    padding-bottom: 33px;}
+  
+  .image_portfolio_2 {
+    padding-top: 77px;
+    padding-bottom: 35px;
+  }
+  
+  .image_portfolio_3 {
+    padding-top: 78px;
+    padding-bottom: 35px;
   }
 
   .image_3{
-    width: 316px;
-    height: 171px;
+    width: 84%;
+    height: 15.74%;
+    max-width: 350px;
+    max-height: 646.7px;
   }
 
   .image_1{
-    width: 316px;
-    height: 171px;
+    width: 84%;
+    height: 15.74%;
+    max-width: 350px;
+    max-height: 646.7px;
   }
 
   .image_2{
-    width: 316px;
-    height: 171px;
+    width: 84%;
+    height: 15.74%;
+    max-width: 350px;
+    max-height: 646.7px;
   }
   /*design contacts block */
 
@@ -486,7 +521,7 @@ transform: matrix(1, 0, 0, 1, 0, 0);
     padding-top: 49px;
   }  
   .img_contact{
-    width: 316px;
+    width: 84%;
   }
 
   .image_contact {
