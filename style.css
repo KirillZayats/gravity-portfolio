@@ -27,6 +27,10 @@ body {
 /*design home block */
 
 
+.text_name_user {
+  font-size: 47.3392px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -191,7 +195,6 @@ transform: matrix(1, 0, 0, 1, 0, 0);
   
 
   .text_name_user {
-    font-size: 47.3392px;
     line-height: 59px;
     padding-top: 10px;
   }
@@ -388,15 +391,14 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 }
   
 .photo_me_mobile_src {
-  width: 316.5px;
   height: 478px;
-  
 }
 
 .photo_me_mobile {
+  width: 316.5px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
-  margin-left: 29px;
-  margin-right: 29.5px;
 }
 
   /*design about me block */
